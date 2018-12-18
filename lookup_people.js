@@ -5,7 +5,7 @@ const moment = require("moment");
 const client = new pg.Client(settings);
 
 function listPeople(db) {
-  db.query(`SELECT * FROM famous_people WHERE first_name = '${command}'`, (err, res) => {
+  db.query(`SELECT * FROM famous_people WHERE first_name = '${command}' OR last_name = '${command}'`, (err, res) => {
     const info = res.rows;
 
     if(err) throw err;
