@@ -1,0 +1,27 @@
+{
+  "name": "w4d2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lookup_people.js",
+  "dependencies": {
+    "moment": "^2.23.0",
+    "pg": "^7.7.1",
+    "knex": "^0.16.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "./node_modules/.bin/knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totoshop47/SQL-EX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totoshop47/SQL-EX/issues"
+  },
+  "homepage": "https://github.com/totoshop47/SQL-EX#readme"
+}
